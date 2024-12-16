@@ -1,6 +1,6 @@
 
 import '../../data_layer/models/movie_list_model.dart';
-import '../../data_layer/repository/movie_repository.dart';
+import '../repository/movie_repository.dart';
 
 class SearchMovies {
   final MovieRepository repository;

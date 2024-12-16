@@ -1,10 +1,6 @@
-
 import '../datasource/remote_data_source.dart';
 import '../models/movie_list_model.dart';
-
-abstract class MovieRepository {
-  Future<MovieListModel> searchMovies(String query, int page);
-}
+import '../../domain_layer/repository/movie_repository.dart';
 
 class MovieRepositoryImpl implements MovieRepository {
   final RemoteDataSource remoteDataSource;
